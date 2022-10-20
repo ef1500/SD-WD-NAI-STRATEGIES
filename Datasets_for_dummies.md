@@ -71,6 +71,14 @@ more leniant with this rule if you have a smaller number of images and you're us
 
 You *can* have SD do this for you, however in my experiece, the results are not very good. You will bring about much, much better results doing the gruntwork of cropping your images by hand. Have patience! This process can take a bit of time, but the payoff is worth it.
 
+2. After your images are done tagging, **go through the tags!!!**
+I can't stress this enough. Going through my "Toaru no Railgun Set" to find that deepdanbooru mistagged lightning bolts as "projectile cum" wasn't very thrilling.
+I loaded up [Atom](https://atom.io/) to search through all the text files and look for undesireable tags. This is why having highly detailed photos can very easily become problamatic. If you train on wrong or incorrect data, your output will be wrong and incorrect. **Remember (Say it with me now!): Garbage in, Garbage out!**
+
+#### A FEW POINTERS
+- From Personal experience, when you're training a model with a character that isn't picked up by deepdanbooru, add the name of the character at the end of each text file so you can use the character name in prompts. Feel free to make use of the [Phrase Adder](https://github.com/ef1500/SD-WD-NAI-STRATEGIES/blob/main/Scripts/phrase_adder.py) python script to quickly add a tag at the end of each text file in your SET folder. Just run the file in the SET folder and you should be good to go.
+- (I have yet to test this with multiple characters at once)
+
 ## PART IV: GENERAL OBSERVATIONS
 
 1. As mentioned by soknife, using the "make flipped copies" option when training a character with heterochromia leads to less than 
