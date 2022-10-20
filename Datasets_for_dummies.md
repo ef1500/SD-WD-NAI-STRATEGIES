@@ -17,7 +17,7 @@ DATASET-NAME
 ├──DATASET_IMGS
 └──SET
 ```
-The IMGS folder will be folder for all the images you want to use in the dataset. Save your training material to this folder.
+The IMGS folder will be the folder for all the images you want to use in the dataset. Save your training material to this folder.
 The DATASET_IMGS folder is for your cropped images, the images that will be preprocessed and tagged (Part III).
 The SET folder is for the actual training set. This is where the results from your tagging should go.
 I have found that this structure makes it easy to expand, combine- do whatever with the dataset if needed.
