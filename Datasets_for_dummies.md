@@ -92,6 +92,8 @@ favorable results.
 4. If you are getting Out of Memory Errors from CUDA, try restarting the webui with no arguments (not even one!)
 I had this issue when training and it took painfully long to figure out.
 
+5. The more you train, the less your CFG will have to be in prompts. This is a general rule for both hypernetworks and textual inversions.
+
 ## PART V: AFTERWORDS
 So far, these dataset making techniques seem to work excellent with both hypernetworks and textual inversions.
 Special thanks to the Holopirates, who have been tirelessly experimenting, training, and posting about their findings.
